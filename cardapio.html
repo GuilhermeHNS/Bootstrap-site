@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Cardápio</title>
+
+	<!--Favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="imagens/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imagens/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imagens/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imagens/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imagens/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imagens/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imagens/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imagens/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="imagens/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imagens/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+	<!--Css|bootstrap-->
+	<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!--Font awesome-->
+	<script src="https://kit.fontawesome.com/4551214056.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<!--BARRA DE NAVEGAÇÃO-->
+	<a name="topo"></a>
+    <!--IMAGEM E TEXTO-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ff9900;">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="imagens/logo.png" style="width: 90px; height: auto;" class="d-inline-block" alt="">
+            <!--d-inline-block = elementos subsequentes não quebram linha, nada por cima dele-->
+            Palatare
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSanduiche">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuSanduiche">
+            <ul class="navbar-nav mr-auto"> <!--mr-auto (margin-right: auto)-->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i>Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-utensils"></i>Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobrenos.html"><i class="fas fa-users"></i>Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="localizacao.html" class="nav-link"><i class="fas fa-map-marked-alt"></i>Nossa Localização</a>
+                </li>
+            </ul>
+
+            <form action="" class="form-inline">
+                <input class="form-control mr-sm-2 mb-2" type="search" placeholder="Buscar">
+                <button class="btn btn-outline-dark mb-2" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+		<br>
+    	<h1 align="center" class="display-4">CARDÁPIO</h1>
+    	
+    	<div class="row">
+			<div class="col-12">
+				<h3>Entradas</h3>
+			</div>
+    		<div class="col-md-4 col-12">
+				<div class="card mb-4">
+					<img src="imagens/cardapio/tartar.jpg" alt="" class="card-img-top">
+					<div class="card-body">
+						<button class="btn" type="button" disabled>
+							<span class="spinner-grow spinner-grow-sm text-warning" role="status" aria-hidden="true"></span>
+							<span class="badge badge-secondary badge-warning">New</span>
+						</button>
+						<h5 class="card-title">Tartar de Salmão</h5>
+						<hr>
+						<p class="card-text">Prato feito com salmão, ao molho tarê, limão e cream cheese</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-12">
+				<div class="card mb-4">
+					<img src="imagens/cardapio/Bruschettas.jpg" alt="" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Bruschettas</h5>
+						<hr>
+						<p class="card-text">Deliciosas fatias de pão italiano com tomate, alho, folhas de manjericão e mussarela</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-12">
+				<div class="card mb-4">
+					<img src="imagens/cardapio/Carpaccio.jpg" alt="" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">Carpaccio</h5>
+						<hr>
+						<p class="card-text">Filetos finos de contra filé, alcaparas, mostarda e queijo parmesão</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    	<div class="row">
+    		<div class="col-12">
+    			<h3>Pratos Principais</h3>
+    		</div>
+
+    		<div class="col-md-4 col-12">
+    			<div class="card mb-4">
+    				<img src="imagens/cardapio/ratatouille.jpg" class="card-img-top">
+    				<div class="card-body">
+    					<h5 class="card-title">Ratatouille</h5>
+    					<hr>
+    					<p class="card-text"> Prato rústico feito com diversos tipos de legumes, como: tomate, a berinjela, o pimentão e a abobrinha.</p>
+    				</div>
+    			</div>
+    		</div>
+
+    		<div class="col-md-4 col-12">
+    			<div class="card mb-4">
+    				<img src="imagens/cardapio/escargot.jpg" class="card-img-top">
+    				<div class="card-body">
+    					<h5 class="card-title">Escargot</h5>
+    					<hr>
+    					<p class="card-text">Caracóis terrestres cozidos com molho especial, feito à base de manteiga e alho.</p>
+    				</div>
+    			</div>
+    		</div>
+
+    		<div class="col-md-4 col-12">
+    			<div class="card mb-4">
+    				<img src="imagens/cardapio/boeuf.jpg" class="card-img-top">
+    				<div class="card-body">
+						<button class="btn" type="button" disabled>
+							<span class="spinner-grow spinner-grow-sm text-warning" role="status" aria-hidden="true"></span>
+							<span class="badge badge-secondary badge-warning">New</span>
+						</button>
+    					<h5 class="card-title">Boeuf Bourguignon</h5>
+    					<hr>
+    					<p class="card-text">Carne de boi cozido em vinho tinto, cenoura, cebolas, cogumelos e alho-poró</p>
+    				</div>
+    			</div>
+    		</div>
+		</div>
+		
+
+		<div class="row">
+			<div class="col-12">
+				<h3>Sobremesas</h3>
+			</div>
+
+			<div class="col-md-4 col-12">
+				<div class="card mb-4">
+					<img src="imagens/cardapio/clafoutis.jpg" alt="" class="img-card-top">
+					<div class="card-body">
+						<h5 class="card-title">Clafoutis</h5>
+						<hr>
+						<p class="card-text">Cerejas cozidas ao forno com creme de farinha</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-md-4 col-12">
+				<div class="card mb-4">
+					<img src="imagens/cardapio/crepe.jpg" alt="" class="img-card-top">
+					<div class="card-body">
+						<button class="btn" type="button" disabled>
+							<span class="spinner-grow spinner-grow-sm text-warning" role="status" aria-hidden="true"></span>
+							<span class="badge badge-secondary badge-warning">New</span>
+						</button>
+						<h5 class="card-title">Crepe Suzette</h5>
+						<hr>
+						<p class="card-text">Massa de crepe com calda de laranja flambada</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-12">
+				<div class="card mb-4">
+					<img src="imagens/cardapio/macarons.jpg" alt="" class="img-card-top">
+					<div class="card-body">
+						<h5 class="card-title">Macarons</h5>
+						<hr>
+						<p class="card-text">Biscoitos de merengue recheados</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+	<footer>
+        <div class="informacao">
+            <p>contato@palatare.com.br</p>
+            <p>+55(55)5555-5555</p>
+            <a href="#topo" class="topo">
+                <p>Topo</p>
+            </a>
+        </div>
+        <div class="redeSocial">
+            <a href="#" class="facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <br> 
+            <a href="#" class="instagram">       
+                <i class="fab fa-instagram-square"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
